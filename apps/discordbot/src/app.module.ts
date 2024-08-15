@@ -10,7 +10,7 @@ import { BotGateway } from './bot.gateway';
   imports: [
     DiscordModule.forRootAsync({
       useFactory: () => ({
-        token: 'MTI3MjQ0NzMyMjY1NTI5MzQ4Mg.GkHj00.J5oVxrKZMjd-LF7LFuShoKDxrxBfRvwLxrc3Zw',
+        token: 'dummy',
         discordClientOptions: {
           intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages],
         },
